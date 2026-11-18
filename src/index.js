@@ -1,4 +1,4 @@
-const TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single";
+const TRANSLATE_URL = "https://translate.google.com/translate_a/single";
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
