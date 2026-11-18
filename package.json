@@ -1,11 +1,12 @@
 {
-  "name": "cloudflare-translate-worker",
+  "name": "translate-backend",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "wrangler": "latest"
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
