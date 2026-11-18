@@ -1,0 +1,7 @@
+name = "translate-api"
+main = "src/index.js"
+compatibility_date = "2026-11-18"
+
+[vars]
+# Không đặt API key thật ở đây.
+# GOOGLE_TRANSLATE_API_KEY và API_KEY sẽ thêm bằng wrangler secret.
